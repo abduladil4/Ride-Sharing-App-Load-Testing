@@ -1,0 +1,5 @@
+ride_id,user_id,driver_id,pickup,drop_location,fare,status
+101,11,1,Hyderabad,Secunderabad,150,completed
+102,22,2,Madhapur,KPHB,120,completed
+103,33,3,Gachibowli,Ameerpet,200,completed
+104,44,1,Dilsukhnagar,LB Nagar,90,completed
