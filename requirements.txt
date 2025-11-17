@@ -1,0 +1,28 @@
+flask
+flask-cors
+requests
+locust
+gevent
+geventhttpclient
+pandas
+
+
+| Package        | Purpose                                               |
+| ---------------| ----------------------------------------------------- |
+| flask          | Runs the backend API                                  |
+| flask-cors     | Allows API access from Locust or other clients        |
+| requests       | Used inside Locust tasks to call API                  |
+| locust         | Main load testing tool                                |
+| gevent         | Async networking (used internally by Locust)          |
+| geventhttpclient| Faster HTTP client for Locust                         |
+| pandas         | Used if you load CSV dataset (riders, drivers, trips) |
+
+
+Optional packages (ONLY if you use SQL database)
+If your backend API uses SQLAlchemy + SQLite/MySQL, add:
+sqlalchemy
+pymysql
+
+
+Your requirements.txt is complete and ready to upload to GitHub or install using:
+pip install -r requirements.txt
